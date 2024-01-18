@@ -6,6 +6,7 @@ pipeline {
             steps {
                 // Check out the code from your version control system (e.g., Git)
                 git 'git@github.com:Rajat-0/python-calc-app.git'
+                echo 'Chekout complete'
             }
         }
 
