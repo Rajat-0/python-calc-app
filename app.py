@@ -29,4 +29,4 @@ def perform_operation(num1, num2, operation):
             return 'Cannot divide by zero'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='127.0.0.1', port='8000')
