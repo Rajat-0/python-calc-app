@@ -5,6 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out the code from your version control system (e.g., Git)
+                echo 'Chekout incomplete'
                 git 'git@github.com:Rajat-0/python-calc-app.git'
                 echo 'Chekout complete'
             }
